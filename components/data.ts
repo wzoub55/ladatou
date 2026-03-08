@@ -82,16 +82,19 @@ export const categories: {
 ];
 
 export const floatingItems = [
-  { className: "left-[6%] top-[14%]", label: "2€", size: "text-sm", tone: "bg-[#FF6B35] text-white" },
-  { className: "left-[14%] top-[34%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
-  { className: "left-[10%] bottom-[18%]", label: "2€", size: "text-sm", tone: "bg-[#FF6B35] text-white" },
-  { className: "left-[34%] top-[10%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
-  { className: "left-[42%] bottom-[22%]", label: "2€", size: "text-sm", tone: "bg-[#7C3AED] text-white" },
-  { className: "left-[52%] top-[18%]", label: "2€", size: "text-xs", tone: "bg-[#FF6B35] text-white" },
-  { className: "right-[8%] top-[12%]", label: "2€", size: "text-sm", tone: "bg-[#FF6B35] text-white" },
-  { className: "right-[18%] top-[28%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
-  { className: "right-[12%] bottom-[18%]", label: "2€", size: "text-sm", tone: "bg-[#7C3AED] text-white" },
-  { className: "right-[30%] bottom-[12%]", label: "2€", size: "text-xs", tone: "bg-[#FF6B35] text-white" },
-  { className: "right-[36%] top-[42%]", label: "2€", size: "text-sm", tone: "bg-[#FF6B35] text-white" },
-  { className: "left-[62%] top-[6%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
+  // Côté gauche (logo) — plus dense
+  { className: "left-[4%] top-[10%]", label: "2€", size: "text-sm", tone: "bg-[#FF6B35] text-white" },
+  { className: "left-[12%] top-[30%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
+  { className: "left-[8%] bottom-[16%]", label: "2€", size: "text-sm", tone: "bg-[#FF6B35] text-white" },
+  { className: "left-[22%] top-[8%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
+  { className: "left-[18%] bottom-[28%]", label: "2€", size: "text-sm", tone: "bg-[#FF6B35] text-white" },
+  { className: "left-[30%] top-[22%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
+  { className: "left-[36%] bottom-[10%]", label: "2€", size: "text-sm", tone: "bg-[#7C3AED] text-white" },
+  { className: "left-[26%] top-[48%]", label: "2€", size: "text-xs", tone: "bg-[#FF6B35] text-white" },
+  { className: "left-[40%] top-[12%]", label: "2€", size: "text-sm", tone: "bg-[#FF6B35] text-white" },
+  { className: "left-[6%] top-[52%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
+  // Côté droit (texte) — plus léger
+  { className: "right-[8%] top-[10%]", label: "2€", size: "text-xs", tone: "bg-[#FF6B35] text-white" },
+  { className: "right-[14%] bottom-[14%]", label: "2€", size: "text-xs", tone: "bg-[#7C3AED] text-white" },
+  { className: "right-[4%] bottom-[40%]", label: "2€", size: "text-xs", tone: "bg-[#FF6B35] text-white" },
 ];
